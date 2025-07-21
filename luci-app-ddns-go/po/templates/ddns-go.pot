@@ -1,74 +1,57 @@
 msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:55
+msgid "A simple and easy-to-use Dynamic DNS client with IPv6 support."
 msgstr ""
 
-msgid "DDNS-GO"
-msgstr ""
-
-msgid "DDNS-GO automatically obtains your public IPv4 or IPv6 address and resolves it to the corresponding domain name service."
-msgstr ""
-
-msgid "Base Setting"
-msgstr ""
-
-msgid "Status check error:"
-msgstr ""
-
-msgid "Checking status..."
-msgstr ""
-
-msgid "DDNS-GO Control panel"
-msgstr ""
-
-msgid "Open Web Interface"
-msgstr ""
-
-msgid "Log"
-msgstr ""
-
-msgid "Clear Logs..."
-msgstr ""
-
-msgid "Logs cleared successfully!"
-msgstr ""
-
-msgid "Clear Logs"
-msgstr ""
-
-msgid "NOT RUNNING"
-msgstr ""
-
-msgid "RUNNING"
-msgstr ""
-
-msgid "DDNS-GO Service Not Running"
-msgstr ""
-
-msgid "Please enable the DDNS-GO service"
-msgstr ""
-
-msgid "Open Web Interface"
-msgstr ""
-
-msgid "Set the DDNS-TO access port"
-msgstr ""
-
+#: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:68
 msgid "Collecting data..."
 msgstr ""
 
-msgid "update interval"
+#: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:87
+msgid "Custom DNS server"
 msgstr ""
 
-msgid "Skip verifying certificates"
+#: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:31
+#: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:36
+#: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:54
+#: applications/luci-app-ddns-go/root/usr/share/luci/menu.d/luci-app-ddns-go.json:3
+msgid "DDNS-Go"
 msgstr ""
 
-msgid "Compare with service provider N times intervals"
+#: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:90
+msgid "Disable WebUI"
 msgstr ""
 
-msgid "Specify DNS resolution server"
+#: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:74
+msgid "Enable"
 msgstr ""
 
-msgid "Do not start web services"
+#: applications/luci-app-ddns-go/root/usr/share/rpcd/acl.d/luci-app-ddns-go.json:3
+msgid "Grant UCI access for luci-app-ddns-go"
 msgstr ""
 
-msgid "Delayed Start (seconds)"
+#: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:78
+msgid "Listen address"
+msgstr ""
+
+#: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:36
+msgid "NOT RUNNING"
+msgstr ""
+
+#: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:34
+msgid "Open Web Interface"
+msgstr ""
+
+#: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:31
+msgid "RUNNING"
+msgstr ""
+
+#: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:93
+msgid "Skip certificate verification"
+msgstr ""
+
+#: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:83
+msgid "Update interval"
 msgstr ""
