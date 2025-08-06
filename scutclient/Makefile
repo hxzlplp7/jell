@@ -9,12 +9,11 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=scutclient
 PKG_VERSION:=3.1.3
-PKG_RELEASE:=7
+PKG_RELEASE:=8
 
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/scutclient/scutclient.git
-PKG_SOURCE_VERSION:=null
-PKG_MIRROR_HASH:=skip
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=https://codeload.github.com/scutclient/scutclient/tar.gz/v$(PKG_VERSION)?
+PKG_HASH:=skip
 
 PKG_MAINTAINER:=Scutclient Project
 PKG_LICENSE:=AGPL-3.0
