@@ -1,11 +1,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mhz
-PKG_RELEASE:=14
+PKG_RELEASE:=15
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL=https://github.com/wtarreau/mhz.git
-PKG_SOURCE_DATE:=2023-06-17
+PKG_SOURCE_DATE:=2025-07-26
 PKG_SOURCE_VERSION:=null
 PKG_MIRROR_HASH:=skip
 
