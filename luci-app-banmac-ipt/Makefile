@@ -2,6 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-app-banmac-ipt
 PKG_VERSION:=20211118
+PKG_RELEASE:=3
 
 
 include $(INCLUDE_DIR)/package.mk
