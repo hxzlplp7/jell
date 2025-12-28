@@ -1,0 +1,10 @@
+--- miniupnpd/files/miniupnpd.init
++++ miniupnpd/files/miniupnpd.init
+@@ -63,6 +63,7 @@ upnpd() {
+ 	local use_stun stun_host stun_port uuid notify_interval presentation_url
+ 	local upnp_lease_file clean_ruleset_threshold clean_ruleset_interval
+ 	local ipv6_disable
++	local force_forwarding
+ 
+ 	local enabled
+ 	config_get_bool enabled config enabled 1
