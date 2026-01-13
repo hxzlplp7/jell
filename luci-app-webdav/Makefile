@@ -16,6 +16,6 @@ define Package/$(PKG_NAME)/conffiles
 /etc/webdav/
 endef
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
