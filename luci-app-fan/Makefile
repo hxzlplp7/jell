@@ -14,7 +14,7 @@ define Package/luci-app-fan/conffiles
 /etc/config/luci-fan
 endef
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
 
