@@ -5,7 +5,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=cpufreq
-PKG_RELEASE:=16
+PKG_RELEASE:=17
 
 include $(INCLUDE_DIR)/package.mk
 
