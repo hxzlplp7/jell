@@ -2,10 +2,10 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=trojan-plus
 PKG_VERSION:=10.0.3
-PKG_RELEASE:=8
+PKG_RELEASE:=9
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/peter-tank/trojan-plus/tar.gz/v$(PKG_VERSION)?
+PKG_SOURCE_URL:=https://codeload.github.com/kenzok8/trojan-plus/tar.gz/v$(PKG_VERSION)?
 PKG_HASH:=skip
 
 PKG_BUILD_PARALLEL:=1
@@ -47,7 +47,7 @@ define Package/trojan-plus
 	SECTION:=net
 	CATEGORY:=Network
 	TITLE:=An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
-	URL:=https://github.com/Trojan-Plus-Group/trojan-plus
+	URL:=https://github.com/kenzok8/trojan-plus
 	DEPENDS:= \
 		+libpthread +libstdcpp +libopenssl \
 		+boost +boost-system +boost-program_options

@@ -5,11 +5,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tcping
-PKG_VERSION:=0.3
-PKG_RELEASE:=10
+PKG_VERSION:=0.4
+PKG_RELEASE:=11
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/Mattraks/tcping/tar.gz/$(PKG_VERSION)?
+PKG_SOURCE_URL:=https://codeload.github.com/kenzok8/tcping/tar.gz/$(PKG_VERSION)?
 PKG_HASH:=skip
 
 PKG_LICENSE:=GPL-2.0-only
@@ -23,7 +23,7 @@ define Package/tcping
   SECTION:=net
   CATEGORY:=Network
   TITLE:=tcping measures the latency of a tcp-connection (IPv4/IPv6 support)
-  URL:=https://github.com/jlyo/tcping
+  URL:=https://github.com/kenzok8/tcping
 endef
 
 define Build/Compile

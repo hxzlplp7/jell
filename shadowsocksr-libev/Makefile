@@ -2,10 +2,10 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=shadowsocksr-libev
 PKG_VERSION:=2.5.3
-PKG_RELEASE:=17
+PKG_RELEASE:=18
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/shadowsocksrr/shadowsocksr-libev/tar.gz/$(PKG_VERSION)?
+PKG_SOURCE_URL:=https://codeload.github.com/kenzok8/shadowsocksr-libev/tar.gz/$(PKG_VERSION)?
 PKG_HASH:=skip
 
 PKG_LICENSE:=GPL-3.0
@@ -25,7 +25,7 @@ define Package/shadowsocksr-libev/Default
     CATEGORY:=Network
     SUBMENU:=Web Servers/Proxies
     TITLE:=shadowsocksr-libev ssr-$(1)
-    URL:=https://github.com/shadowsocksrr/shadowsocksr-libev
+    URL:=https://github.com/kenzok8/shadowsocksr-libev
     DEPENDS:=+libev +libsodium +libopenssl +libpthread +libpcre2 +libudns +zlib +libopenssl-legacy
   endef
 
