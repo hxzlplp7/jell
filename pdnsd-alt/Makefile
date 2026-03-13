@@ -5,13 +5,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=pdnsd
-PKG_VERSION:=1.2.9b-par.1
-PKG_RELEASE:=12
+PKG_VERSION:=1.3.0
+PKG_RELEASE:=13
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/kenzok8/pdnsd/tar.gz/
-PKG_SOURCE_VERSION:=null
-PKG_SOURCE_SUBDIR:=pdnsd-$(PKG_VERSION)
+PKG_SOURCE_URL:=https://codeload.github.com/kenzok8/pdnsd/tar.gz/$(PKG_VERSION)?
 PKG_HASH:=skip
 
 PKG_BUILD_PARALLEL:=1

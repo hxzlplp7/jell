@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=shadowsocksr-libev
 PKG_VERSION:=2.5.3
-PKG_RELEASE:=18
+PKG_RELEASE:=19
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/kenzok8/shadowsocksr-libev/tar.gz/$(PKG_VERSION)?
@@ -50,6 +50,7 @@ CONFIGURE_ARGS += \
 	--enable-system-shared-lib
 
 TARGET_CFLAGS += -flto
+TARGET_CFLAGS += -Wno-error=use-after-free
 TARGET_LDFLAGS += -Wl,--gc-sections,--as-needed
 
 $(foreach component,$(SHADOWSOCKSR_COMPONENTS), \
