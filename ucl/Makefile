@@ -7,8 +7,8 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ucl
-PKG_VERSION:=1.04
-PKG_RELEASE:=17
+PKG_VERSION:=1.04.1
+PKG_RELEASE:=18
 
 PKG_MAINTAINER:=Xingwang Liao <kuoruan@gmail.com>
 PKG_LICENSE:=GPL-2.0-only
@@ -40,7 +40,7 @@ define Package/libucl
   SECTION:=libs
   CATEGORY:=Libraries
   TITLE:=Portable lossless data compression library
-  URL:=http://www.oberhumer.com/opensource/ucl/
+  URL:=https://github.com/kenzok8/ucl
 endef
 
 define Package/libucl/description

@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=shadowsocksr-libev
 PKG_VERSION:=2.5.9
-PKG_RELEASE:=22
+PKG_RELEASE:=23
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/kenzok8/shadowsocksr-libev/tar.gz/v$(PKG_VERSION)?
@@ -35,7 +35,7 @@ define Package/shadowsocksr-libev/Default
   endef
 endef
 
-SHADOWSOCKSR_COMPONENTS:=local nat redir server
+SHADOWSOCKSR_COMPONENTS:=local nat redir
 define shadowsocksr-libev/templates
   $(foreach component,$(SHADOWSOCKSR_COMPONENTS),
     $(call Package/shadowsocksr-libev/Default,$(component))
