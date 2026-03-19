@@ -6,18 +6,18 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gallery-dl
 PKG_VERSION:=1.30.8
-PKG_RELEASE:=9
+PKG_RELEASE:=10
 
 PYPI_NAME:=gallery_dl
-PKG_HASH:=skip
+PKG_HASH:=66b740276753cd0eeef365c29eb140130f08359ff06008a497af855d00081d04
 
 PKG_LICENSE:=GPL-2.0-only
 PKG_LICENSE_FILES:=LICENSE
 PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
 
-include $(TOPDIR)/feeds/packages/lang/python/pypi.mk
+include ../../lang/python/pypi.mk
 include $(INCLUDE_DIR)/package.mk
-include $(TOPDIR)/feeds/packages/lang/python/python3-package.mk
+include ../../lang/python/python3-package.mk
 
 define Package/gallery-dl
   SECTION:=multimedia

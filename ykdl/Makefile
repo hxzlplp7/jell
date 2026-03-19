@@ -6,18 +6,18 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ykdl
 PKG_VERSION:=1.8.2
-PKG_RELEASE:=3
+PKG_RELEASE:=4
 
 PYPI_NAME:=ykdl
-PKG_HASH:=skip
+PKG_HASH:=c689b8e4bf303d1582e40d5039539a1a754f7cf897bce73ec57c7e874e354b19
 
 PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=LICENSE.txt
 
-include $(TOPDIR)/feeds/packages/lang/python/pypi.mk
+include ../../lang/python/pypi.mk
 include $(INCLUDE_DIR)/package.mk
-include $(TOPDIR)/feeds/packages/lang/python/python3-package.mk
+include ../../lang/python/python3-package.mk
 
 define Package/ykdl
   SECTION:=multimedia

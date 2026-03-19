@@ -6,19 +6,19 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=you-get
 PKG_VERSION:=0.4.1718
-PKG_RELEASE:=3
+PKG_RELEASE:=4
 
 PYPI_NAME:=you-get
 PYPI_SOURCE_NAME:=you_get
-PKG_HASH:=skip
+PKG_HASH:=78560236a4d54ad6be200d172a828e39f49c0f07c867dcf1df670c66b5b7f096
 
 PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=LICENSE
 
-include $(TOPDIR)/feeds/packages/lang/python/pypi.mk
+include ../../lang/python/pypi.mk
 include $(INCLUDE_DIR)/package.mk
-include $(TOPDIR)/feeds/packages/lang/python/python3-package.mk
+include ../../lang/python/python3-package.mk
 
 define Package/you-get
   SECTION:=multimedia

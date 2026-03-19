@@ -6,11 +6,11 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=BitSrunLoginGo
 PKG_VERSION:=1.6.5
-PKG_RELEASE:=26
+PKG_RELEASE:=27
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/Mmx233/BitSrunLoginGo/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=skip
+PKG_HASH:=1777adce3ca2815295dcb09294ffda2df4304d7157b7b90c15b354b48eed32d8
 
 PKG_LICENSE:=AGPL-3.0-only
 PKG_LICENSE_FILES:=LICENSE
@@ -23,7 +23,7 @@ GO_PKG:=github.com/Mmx233/BitSrunLoginGo
 GO_PKG_BUILD_PKG:=github.com/Mmx233/BitSrunLoginGo/cmd/bitsrun/
 
 include $(INCLUDE_DIR)/package.mk
-include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
+include ../../lang/golang/golang-package.mk
 
 define Package/bitsrunlogin-go
   SECTION:=net
