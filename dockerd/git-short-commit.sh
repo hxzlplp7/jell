@@ -1,3 +1,4 @@
+
 #!/bin/sh
 #
 #	USAGE: git-short-commit.sh <GIT_URL> <GIT_REF> <GIT_DIR>
@@ -19,6 +20,9 @@ GIT_REF="${2}"
 if [ -z "${GIT_REF}" ]; then
 	error "Git reference not specified"
 fi
+
+# Remove docker- prefix if present (e.g., docker-v29.2.1 -> v29.2.1)
+GIT_REF=$(echo "$GIT_REF" | sed 's/^docker-//')
 
 GIT_DIR="${3}"
 if [ -z "${GIT_DIR}" ]; then
