@@ -7,7 +7,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=autocore
 PKG_FLAGS:=nonshared
-PKG_RELEASE:=52
+PKG_RELEASE:=53
 
 PKG_CONFIG_DEPENDS:= \
 	CONFIG_TARGET_bcm27xx \
