@@ -5,8 +5,8 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=filebrowser
-PKG_VERSION:=2.63.15
-PKG_RELEASE:=106
+PKG_VERSION:=2.63.16
+PKG_RELEASE:=107
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/filebrowser/filebrowser/tar.gz/v${PKG_VERSION}?
