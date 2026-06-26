@@ -6,8 +6,8 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=redsocks2
-PKG_VERSION:=0.73
-PKG_RELEASE:=22
+PKG_VERSION:=0.73.1
+PKG_RELEASE:=23
 
 PKG_SOURCE:=redsocks-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/kenzok8/redsocks/tar.gz/release-$(PKG_VERSION)?
